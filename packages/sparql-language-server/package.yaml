@@ -1,0 +1,16 @@
+---
+name: sparql-language-server
+description: A server providing language intelligence (autocomplete, diagnostics, hover tooltips, etc.) for the SPARQL query language, including both W3C standard SPARQL and Stardog extensions (e.g., PATHS queries), via the Language Server Protocol.
+homepage: https://www.npmjs.com/package/sparql-language-server
+licenses:
+  - Apache-2.0
+languages:
+  - SPARQL
+categories:
+  - LSP
+
+source:
+  id: pkg:npm/sparql-language-server@4.1.2
+
+bin:
+  sparql-language-server: npm:sparql-language-server
